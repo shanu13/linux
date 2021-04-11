@@ -1,0 +1,266 @@
+Process 1
+
+P0 0 3
+P1 3 6
+P2 5 4	
+P3 7 3
+
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+1
+---------- FIRST COME FIRST SERVE SCHEDULING
+[0 - 3]  P0 running
+[3 - 9]  P1 running
+[9 - 13]         P2 running
+[13 - 16]        P3 running
+
+ Turnaround time: P0[3] P1[6] P2[8] P3[9]
+Wait time :     P0[0]  P1[0]  P2[4]  P3[6]
+Average turnaround time: 6.50
+Average wait time: 2.50
+
+ Hit Any key to continue...
+
+---------------------------------------------------------------
+      CPU Scheduling Simulation
+-----------------------------------------------------------------
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+2
+Enter quantum number
+2
+
+---------------Round Robin Scheduling--------
+[0-2]    P0 running[2-3]         P0 running[3-5]         P1 running[5-7]         P2 running[7-9]         P3 running[9-11]                                                                                                                    P1 running[11-13]        P2 running[13-14]       P3 running
+ Turnaround time: P0[3] P1[13] P2[8] P3[7]
+Wait time :     P0[0]  P1[7]  P2[4]  P3[4]
+Average turnaround time: 7.75
+Average wait time: 3.75
+
+ Hit Any key to continue...
+
+
+
+---------------------------------------------------------------
+      CPU Scheduling Simulation
+-----------------------------------------------------------------
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+3
+
+-----------------SRBF--------------------------
+[0 - 3] P0 running
+[3 - 9] P1 running
+[9 - 12]        P3 running
+[12 - 16]       P2 running
+
+ Turnaround time: P0[3] P1[6] P2[7] P3[3]
+Wait time :     P0[0]  P1[0]  P2[3]  P3[0]
+Average turnaround time: 4.75
+Average wait time: 0.75
+
+
+Process 2
+
+P0 0 3
+P1 4 6
+P2 7 4
+P3 10 3
+
+
+---------------------------------------------------------------
+      CPU Scheduling Simulation
+-----------------------------------------------------------------
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+1
+---------- FIRST COME FIRST SERVE SCHEDULING
+[0 - 3]  P0 running
+[3 - 9]  P1 running
+[9 - 13]         P2 running
+[13 - 16]        P3 running
+
+ Turnaround time: P0[3] P1[5] P2[6] P3[6]
+Wait time :     P0[0]  P1[-1]  P2[2]  P3[3]
+Average turnaround time: 5.00
+Average wait time: 1.00
+
+ Hit Any key to continue...
+
+---------------------------------------------------------------
+      CPU Scheduling Simulation
+-----------------------------------------------------------------
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+2
+Enter quantum number
+2
+
+---------------Round Robin Scheduling--------
+[0-2]    P0 running[2-3]         P0 running
+ Turnaround time: P0[3] P1[6] P2[4] P3[3]
+Wait time :     P0[0]  P1[0]  P2[0]  P3[0]
+Average turnaround time: 4.00
+Average wait time: 0.00
+
+ Hit Any key to continue...
+
+---------------------------------------------------------------
+      CPU Scheduling Simulation
+-----------------------------------------------------------------
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+3
+
+-----------------SRBF--------------------------
+[0 - 3] P0 running 
+
+
+
+
+
+
+
+process 3
+
+
+P0 0 8
+P1 1 4
+P2 2 9
+P3 3 5
+
+
+
+---------- FIRST COME FIRST SERVE SCHEDULING
+[0 - 8]  P0 running
+[8 - 12]         P1 running
+[12 - 21]        P2 running
+[21 - 26]        P3 running
+
+ Turnaround time: P0[8] P1[11] P2[19] P3[23]
+Wait time :     P0[0]  P1[7]  P2[10]  P3[18]
+Average turnaround time: 15.25
+Average wait time: 8.75
+
+ Hit Any key to continue...
+
+---------------------------------------------------------------
+      CPU Scheduling Simulation
+-----------------------------------------------------------------
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+2
+Enter quantum number
+2
+
+---------------Round Robin Scheduling--------
+[0-2]    P0 running[2-4]         P1 running[4-6]         P2 running[6-8]         P3 running[8-10]        P0 running[10-12]                                                                                                                   P1 running[12-14]        P2 running[14-16]       P3 running[16-18]       P0 running[18-20]       P2 running[20-21]      P3 running[21-23]                                                                                                    P0 running
+ Turnaround time: P0[23] P1[11] P2[24] P3[18]
+Wait time :     P0[15]  P1[7]  P2[15]  P3[13]
+Average turnaround time: 19.00
+Average wait time: 12.50
+
+ Hit Any key to continue...
+
+---------------------------------------------------------------
+      CPU Scheduling Simulation
+-----------------------------------------------------------------
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+3
+
+-----------------SRBF--------------------------
+[0 - 8] P0 running
+[8 - 12]        P1 running
+[12 - 17]       P3 running
+[17 - 26]       P2 running
+
+ Turnaround time: P0[8] P1[4] P2[18] P3[9]
+Wait time :     P0[0]  P1[0]  P2[9]  P3[4]
+Average turnaround time: 9.75
+Average wait time: 3.25
+
+
+process 4
+
+P0 0 24
+P1 0 3
+P2 0 3
+
+
+---------- FIRST COME FIRST SERVE SCHEDULING
+[0 - 24]         P0 running
+[24 - 27]        P1 running
+[27 - 30]        P2 running
+
+ Turnaround time: P0[24] P1[27] P2[30]
+Wait time :     P0[0]  P1[24]  P2[27]
+Average turnaround time: 27.00
+Average wait time: 17.00
+
+ Hit Any key to continue...
+
+---------------------------------------------------------------
+      CPU Scheduling Simulation
+-----------------------------------------------------------------
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+2
+Enter quantum number
+2
+
+---------------Round Robin Scheduling--------
+[0-2]    P0 running[2-4]         P1 running[4-6]         P2 running[6-8]         P0 running[8-9]         P1 running[9-10]                                                                                                                    P2 running[10-12]        P0 running
+ Turnaround time: P0[30] P1[9] P2[10]
+Wait time :     P0[6]  P1[6]  P2[7]
+Average turnaround time: 16.33
+Average wait time: 6.33
+
+ Hit Any key to continue...
+
+---------------------------------------------------------------
+      CPU Scheduling Simulation
+-----------------------------------------------------------------
+Select the Scheduling Algorithm [1, 2, 3, or 4] :
+1. First Come First Serve (FCFS)
+2. Round Robin (RR)
+3. Shortest Remaining Bursttime First (SRBT)
+4. Exit
+3
+
+-----------------SRBF--------------------------
+[0 - 3] P1 running
+[3 - 6] P2 running
+[6 - 30]        P0 running
+
+ Turnaround time: P0[30] P1[3] P2[6]
+Wait time :     P0[6]  P1[0]  P2[3]
+Average turnaround time: 13.00
+Average wait time: 3.00
